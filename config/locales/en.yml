@@ -9,22 +9,26 @@ en:
         memo: Memo
         picture: Picture
         title: Title
-        show: Show this book
-        edit: Edit this book
-        back: Back to books
-        destroy: Destroy this book
-        new: New book
   books:
     index:
-      index: Books
+      title: Books
     new:
-      new: New book
+      title: New book
     edit:
-      edit: Editing book
-
+      title: Editing book
     create:
       created: Book was successfully created.
     update:
       updated: Book was successfully updated.
     destroy:
       destroyed: Book was successfully destroyed.
+    link:
+      show: Show this book
+      edit: Edit this book
+      back: Back to books
+      destroy: Destroy this book
+      new: New book
+  helpers:
+    submit:
+      create: Register this book
+      update: Update this book
