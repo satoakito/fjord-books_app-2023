@@ -68,6 +68,7 @@ group :development do
   gem 'erb_lint', require: false
   # 以下のPRがリリースされたら最新のrubocopを使うようにする
   # https://github.com/fjordllc/rubocop-fjord/pull/16
+
   gem 'rubocop', '~> 1.45.1', require: false
   gem 'rubocop-fjord', require: false
   gem 'rubocop-rails', require: false
@@ -80,6 +81,3 @@ group :test do
 end
 
 gem 'carrierwave'
-
-gem 'i18n_generators'
-gem 'rails-i18n'

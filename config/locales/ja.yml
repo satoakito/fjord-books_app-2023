@@ -9,22 +9,26 @@ ja:
         memo: メモ
         picture: 画像
         title: タイトル
-        show: この本を表示
-        edit: この本を編集
-        back: 本の一覧に戻る
-        destroy: この本を削除
-        new: 新規登録
   books:
     index:
-      index: 本の一覧
+      title: 本の一覧
     new:
-      new: 本の登録
+      title: 本の登録
     edit:
-      edit: 本の編集
-
+      title: 本の編集
     create:
       created: 本を登録しました
     update:
       updated: 本を更新しました
     destroy:
       destroyed: 本を削除しました
+    link:
+      show: この本を表示
+      edit: この本を編集
+      back: 本の一覧に戻る
+      destroy: この本を削除
+      new: 新規登録
+  helpers:
+    submit:
+      create: 本を登録する
+      update: 本を更新する
